@@ -1,0 +1,16 @@
+{
+  "name": "work-humanizer",
+  "owner": {
+    "name": "Prasannajeet Pani"
+  },
+  "metadata": {
+    "description": "Fork of phuryn/work-humanizer, packaged so it installs as a Cursor plugin. The skill itself is unchanged from upstream."
+  },
+  "plugins": [
+    {
+      "name": "work-humanizer",
+      "source": "./skills/work-humanizer",
+      "description": "Edits AI-sounding work writing so it reads like a careful person wrote it, without changing what it says or commits to."
+    }
+  ]
+}
